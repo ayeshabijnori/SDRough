@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <title>Dashboard</title>
+</head>
+<body>
+    
+
+    <div class="main-content">
+        <dir class="board">
+
+            <table width="100%">
+                <div class="heading">   <h2>Faculty Table</h2> </div>
+                <div class="main-content">
+                 <div class="heading">   
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Faculty Name</th>
+                                <th>Branch</th>
+                                <th>PDF File</th>
+                                <th>Status</th>
+                                <th> Accept / Reject</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Row 1 -->
+                            <tr>
+                                <td>{Name of Faculty 1}</td>
+                                <td>{Name of Branch 1}</td>
+                                <td class="pdf-preview">
+                                    <a href="your-pdf-file1.pdf" target="_blank">Preview PDF</a>
+                                </td>
+                                <td>
+                                    <select class="status-dropdown">
+                                        <option value="not-completed">Not Completed</option>
+                                        <option value="completed">Completed</option>
+                                    </select>
+                                </td>
+                                <td>
+                                 <label for="Accept">
+                                <input type ="radio"
+                                value="Accept" > Accept
+                                 </label>
+                                 
+                                 <label for="Reject">
+                                    <input type ="radio"
+                                    value="Reject" > Reject
+                                     </label>
+
+                                    </td>
+
+                                </td>
+                            </tr>
+                            <!-- Row 2 -->
+                            <tr>
+                                <td>{Name of Faculty 2}</td>
+                                <td>{Name of Branch 2}</td>
+                                <td class="pdf-preview">
+                                    <a href="your-pdf-file2.pdf" target="_blank">Preview PDF</a>
+                                </td>
+                                <td>
+                                    <select class="status-dropdown">
+                                        <option value="not-completed">Not Completed</option>
+                                        <option value="completed">Completed</option>
+                                       
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <label for="Accept">
+                                   <input type ="radio"
+                                   value="Accept" > Accept
+                                    </label>
+                                    
+                                    <label for="Reject">
+                                       <input type ="radio"
+                                       value="Reject" > Reject
+                                        </label>
+   
+                                       </td>
+                            </tr>
+                            <!-- Add more rows as needed -->
+                        </tbody>
+                    </table>
+                </div>
+
+</body>
+</html>
